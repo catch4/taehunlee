@@ -4,8 +4,8 @@
 
 using namespace std;
 
-// // 백준 7579 앱
-// // https://www.acmicpc.net/problem/7579
+// 백준 7579 앱
+// https://www.acmicpc.net/problem/7579
 
 const int MAX = 100;
 

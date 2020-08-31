@@ -65,7 +65,8 @@ long long solve(vector<pair<long long, long long>> logs, int N) {
                 }
             } else {
                 // 충전이 필요하지 않은데, 충전액이 0보다 클 순 없다.
-                if(b - a - prev > 0) {
+                // 충전액이 음수가 될 수 있는 상황이 고려되므로 0보다 작은것이 아닌 0이 아닌 조건으로 변경해주어야 함
+                if(b - a - prev != 0) {
                     return -1;
                 }
             }
@@ -94,7 +95,6 @@ int main() {
         logs[i] = make_pair(a, b);
 
     }
-
 
     cout << solve(logs, N) << endl;
 }
