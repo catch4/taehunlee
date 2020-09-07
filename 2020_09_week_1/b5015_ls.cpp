@@ -1,13 +1,11 @@
 #include <iostream>
 #include <cstring>
 #include <vector>
-// #include <stack>
-// #include <stdio.h>
-// #include <stdlib.h>
-// #include <string.h>
-// #include <algorithm>
 
 using namespace std;
+
+// 백준 5015 ls
+// https://www.acmicpc.net/problem/5015
 
 int dp[101][101];
 
